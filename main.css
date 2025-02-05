@@ -1,7 +1,6 @@
 /* Core styles */
 body {
   font-family: sans-serif;
-  /* background-color: #f7f7f7; */
 }
 .container {
   width: 1140px;
@@ -14,6 +13,49 @@ body {
 
 .clearfix {
   clear: both;
+}
+
+.section-subtitle {
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #797979;
+  text-transform: uppercase;
+}
+
+.about-me__text {
+  margin-top: 5px;
+  font-size: 42px;
+  font-weight: 700;
+  color: #05364d;
+  text-transform: capitalize;
+}
+
+.about-me__description {
+  font-size: 14px;
+  font-weight: 300;
+  color: #797979;
+  line-height: 27px;
+}
+
+.button {
+  border: none;
+  background-color: #1c44e4;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 20px 40px;
+  cursor: pointer;
+}
+
+.blur-line {
+  display: inline-block;
+  margin-left: 5px;
+  width: 80px;
+  height: 4px;
+  background-color: rgba(237, 35, 159, 0.6);
+  filter: blur(4px);
+  border-radius: 4px;
 }
 
 /* Main header styles */
@@ -105,13 +147,6 @@ body {
 
 .main-section__action {
   margin-top: 30px;
-  border: none;
-  background-color: #1c44e4;
-  color: #fff;
-  font-weight: 500;
-  font-size: 14px;
-  padding: 20px 40px;
-  cursor: pointer;
 }
 
 /* Statistics section */
@@ -139,4 +174,20 @@ body {
   font-size: 16px;
   color: #797979;
   font-weight: 300;
+}
+
+/* About me section */
+
+.about-me {
+  padding-top: 100px;
+}
+
+.about-me > div {
+  width: 50%;
+  float: left;
+}
+
+.about-me__image img {
+  /* text-align: right; */
+  width: 90%;
 }
